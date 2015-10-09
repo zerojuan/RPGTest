@@ -33,9 +33,13 @@
       <object>objects\objFlower</object>
       <object>objects\objTree</object>
     </objects>
+    <objects name="System">
+      <object>objects\GameState</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_intro</room>
+    <room>rooms\rmTitleScreen</room>
+    <room>rooms\rmIntro</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
